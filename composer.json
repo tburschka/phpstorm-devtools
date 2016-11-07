@@ -1,0 +1,23 @@
+{
+  "name": "ideaplexus/phpstorm-devtools",
+  "license": "BSD",
+  "description": "Requirements for php",
+  "require": {
+    "php": ">=5.6"
+  },
+  "config": {
+    "vendor-dir": ".",
+    "bin-dir": "bin"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "pdepend/pdepend": "*",
+    "phploc/phploc": "*",
+    "phpmd/phpmd": "*",
+    "behat/behat": "*",
+    "sebastian/phpcpd": "*",
+    "theseer/phpdox": "*",
+    "squizlabs/php_codesniffer": "*",
+    "phing/phing": "*"
+  }
+}
